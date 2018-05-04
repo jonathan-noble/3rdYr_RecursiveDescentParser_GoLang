@@ -1,0 +1,13 @@
+SourceFile =>       import Decls | Package
+Decls =>            "string" | (Parenthesis)
+P =>                String P | Epsilon
+Package =>         "package" Identifier
+
+
+
+// For consistency:
+SourceFile =>       Header | Package
+Header =>           Identifier Decls
+Decls =>            String | (Parenthesis)
+String =>          "string" | Epsilon
+Identifiers =>      
