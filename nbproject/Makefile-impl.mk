@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Lab1_Attempt2.2
+PROJECTNAME=RecursiveDescentParser_GoLang
 
 # Active Configuration
 DEFAULTCONF=Debug
