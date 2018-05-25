@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=recursivedescentparser_golang
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/recursivedescentparser_golang
+CND_ARTIFACT_NAME_Debug=lab1_attempt2.2
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/lab1_attempt2.2
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=recursivedescentparsergolang.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/recursivedescentparsergolang.tar
+CND_PACKAGE_NAME_Debug=lab1attempt2.2.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/lab1attempt2.2.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=recursivedescentparser_golang
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/recursivedescentparser_golang
+CND_ARTIFACT_NAME_Release=lab1_attempt2.2
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/lab1_attempt2.2
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=recursivedescentparsergolang.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/recursivedescentparsergolang.tar
+CND_PACKAGE_NAME_Release=lab1attempt2.2.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/lab1attempt2.2.tar
 #
 # include compiler specific variables
 #

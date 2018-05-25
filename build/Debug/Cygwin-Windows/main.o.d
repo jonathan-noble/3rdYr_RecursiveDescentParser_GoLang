@@ -1,5 +1,5 @@
-build/Debug/Cygwin-Windows/main.o: main.cpp Parser.cpp Parser.h
-
-Parser.cpp:
+build/Debug/Cygwin-Windows/main.o: main.cpp Parser.h AST.h
 
 Parser.h:
+
+AST.h:

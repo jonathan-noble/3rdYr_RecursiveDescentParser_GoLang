@@ -12,18 +12,35 @@
  */
 
 #include <cstdlib>
-#include "Parser.cpp"
+#include<iostream>
+#include <fstream>
+#include "Parser.h"
 
 using namespace std;
 
-void Test(const char* text)
+void Test(const char* text) // (myfile parameter) - fstream&)
 {
    Parser parser;
+   string line;
+   ifstream myfile ("astgo.txt");
+    
+   
    try 
    {
-      parser.Parse(text);
-      std::cout << "Parsing successful!" << std::endl;
+
+        if (myfile.is_open())
+        {     
+            while( getline(myfile, line) )
+            {
+            parser.Parse(text); //myfile); 
+            std::cout << "Parsing successful!" << std::endl;
+            cout << line << '\n';
+            }
+          myfile.close(); 
+         }
+
    }
+   
    catch(std::exception& ex)
    {
       std::cout << """ Parsing failed! " << ex.what() << std::endl;
@@ -32,7 +49,8 @@ void Test(const char* text)
  
 int main()
 {
-   Test("import 'fmt' ");
+    fstream myfile("astgo.txt");
+    Test(""); 
    return 0;
 }
 
